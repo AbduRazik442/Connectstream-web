@@ -47,7 +47,7 @@ function HeroSection() {
 
           <div className="hero-buttons">
             <a href="#contact" className="hero-primary-btn">
-              Book a Demo
+              Start your setup now
               <ArrowUpRight size={18} />
             </a>
 
