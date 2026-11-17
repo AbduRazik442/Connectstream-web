@@ -1173,7 +1173,7 @@ export default function PlatformOverview() {
               transition={{ duration: 0.75, ease: "easeOut" }}
             >
               <img
-                src="/assets/business.jpg"
+                src="/business.jpg"
                 alt="A small business team working together"
                 loading="lazy"
               />
