@@ -118,7 +118,7 @@ function AboutSection() {
           </motion.div>
         </div>
 
-        <div className="about-purpose-grid">
+        {/* <div className="about-purpose-grid">
           <motion.article
             className="purpose-row mission-row"
             initial={{ opacity: 0, y: 25 }}
@@ -143,7 +143,7 @@ function AboutSection() {
               </p>
             </div>
 
-            {/* <span className="purpose-mark">Mission</span> */}
+            
           </motion.article>
 
           <motion.article
@@ -170,9 +170,86 @@ function AboutSection() {
               </p>
             </div>
 
-            {/* <span className="purpose-mark">Vision</span> */}
+            
+          </motion.article>
+        </div> */}
+
+        <div className="about-purpose-new">
+          {/* MISSION */}
+          <motion.article
+            className="purpose-feature mission-feature"
+            initial={{ opacity: 0, y: 35 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
+            transition={{ duration: 0.7, ease: "easeOut" }}
+          >
+            <div className="purpose-feature-top">
+              <span className="purpose-overline">01 / WHAT DRIVES US</span>
+
+              <div className="purpose-symbol mission-symbol">
+                <Target size={30} strokeWidth={1.5} />
+              </div>
+            </div>
+
+            <div className="purpose-feature-content">
+              <span className="purpose-eyebrow">OUR MISSION</span>
+
+              <h3>
+                Making business communication
+                <span> simpler, faster and more human.</span>
+              </h3>
+
+              <p>
+                To simplify business communication through seamless WhatsApp
+                integration making customer interactions faster, smarter, and
+                more human.
+              </p>
+            </div>
+
+            <div className="purpose-feature-bottom">
+              <span>SIMPLIFY. CONNECT. GROW.</span>
+              <span className="purpose-feature-number">M</span>
+            </div>
+          </motion.article>
+
+          {/* VISION */}
+          <motion.article
+            className="purpose-feature vision-feature"
+            initial={{ opacity: 0, y: 35 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
+            transition={{ duration: 0.7, delay: 0.15, ease: "easeOut" }}
+          >
+            <div className="purpose-feature-top">
+              <span className="purpose-overline">02 / WHERE WE'RE GOING</span>
+
+              <div className="purpose-symbol vision-symbol">
+                <Eye size={30} strokeWidth={1.5} />
+              </div>
+            </div>
+
+            <div className="purpose-feature-content">
+              <span className="purpose-eyebrow">OUR VISION</span>
+
+              <h3>
+                A world where every business
+                <span> has a voice and a connection.</span>
+              </h3>
+
+              <p>
+                A world where every business, regardless of size, can
+                communicate with customers easily, in real time, on the
+                platforms people already use and love.
+              </p>
+            </div>
+
+            <div className="purpose-feature-bottom">
+              <span>EVERY BUSINESS. EVERY VOICE.</span>
+              <span className="purpose-feature-number">V</span>
+            </div>
           </motion.article>
         </div>
+
 
         <div className="about-values">
           <div className="about-values-heading">
