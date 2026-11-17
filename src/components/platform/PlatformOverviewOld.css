@@ -1,0 +1,639 @@
+/* .platform-section {
+  position: relative;
+  padding: 110px 24px 120px;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.platform-intro {
+  max-width: 720px;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+
+.section-eyebrow {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #159b50;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.platform-intro h2 {
+  color: #102a27;
+  font-size: clamp(36px, 4.5vw, 54px);
+  line-height: 1.12;
+  letter-spacing: -2px;
+  font-weight: 800;
+}
+
+.platform-intro h2 span {
+  color: #20ad5b;
+}
+
+.platform-intro p {
+  max-width: 620px;
+  margin: 22px auto 0;
+  color: #64736f;
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.platform-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.platform-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 390px;
+  padding: 30px;
+  background: #ffffff;
+  border: 1px solid #e5eee8;
+  border-radius: 20px;
+  box-shadow: 0 12px 40px rgba(7, 94, 84, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.platform-card:hover {
+  transform: translateY(-7px);
+  border-color: #b9e9ca;
+  box-shadow: 0 20px 45px rgba(7, 94, 84, 0.1);
+}
+
+.platform-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.platform-icon {
+  width: 55px;
+  height: 55px;
+  display: grid;
+  place-items: center;
+  border-radius: 15px;
+  background: #e9f9ef;
+  color: #075e54;
+}
+
+.platform-number {
+  color: #b4c8bc;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.platform-category {
+  margin-bottom: 12px;
+  color: #159b50;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.platform-card h3 {
+  color: #102a27;
+  font-size: 22px;
+  line-height: 1.3;
+  letter-spacing: -0.5px;
+}
+
+.platform-card-description {
+  margin-top: 14px;
+  color: #718079;
+  font-size: 13px;
+  line-height: 1.85;
+}
+
+.platform-points {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 22px;
+  padding: 0;
+  list-style: none;
+}
+
+.platform-points li {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: #435a51;
+  font-size: 12px;
+}
+
+.platform-points li svg {
+  flex-shrink: 0;
+  color: #20ad5b;
+}
+
+.platform-card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: auto;
+  padding-top: 25px;
+  color: #075e54;
+  font-size: 13px;
+  font-weight: 700;
+  transition: gap 0.2s ease;
+}
+
+.platform-card-link:hover {
+  gap: 13px;
+}
+
+@media (max-width: 950px) {
+  .platform-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .platform-card:last-child {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 650px) {
+  .platform-section {
+    padding: 75px 18px 85px;
+  }
+
+  .platform-intro {
+    margin-bottom: 40px;
+  }
+
+  .platform-intro h2 {
+    letter-spacing: -1.3px;
+  }
+
+  .platform-intro p {
+    font-size: 14px;
+  }
+
+  .platform-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .platform-card:last-child {
+    grid-column: auto;
+  }
+
+  .platform-card {
+    min-height: 360px;
+    padding: 25px;
+  }
+} */
+
+
+.platform-section {
+  padding: 100px 0;
+  background: #ffffff;
+}
+
+.platform-heading {
+  max-width: 780px;
+  margin: 0 auto 55px;
+  text-align: center;
+}
+
+.section-eyebrow {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: #075e54;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.platform-heading h2,
+.product-catalogue-heading h2 {
+  color: #102a27;
+  font-size: clamp(32px, 4vw, 48px);
+  line-height: 1.15;
+  margin-bottom: 18px;
+}
+
+.platform-heading h2 span {
+  color: #075e54;
+}
+
+.platform-heading > p,
+.product-catalogue-heading p {
+  color: #64736f;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.platform-pillars {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-bottom: 100px;
+}
+
+.pillar-card {
+  padding: 30px;
+  border: 1px solid #e5eee8;
+  border-radius: 18px;
+  background: #f8fcf9;
+}
+
+.pillar-number {
+  display: inline-block;
+  margin-bottom: 22px;
+  color: #25d366;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.pillar-card h3 {
+  margin-bottom: 12px;
+  color: #075e54;
+  font-size: 21px;
+}
+
+.pillar-card p {
+  color: #64736f;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.product-catalogue-heading {
+  margin-bottom: 45px;
+}
+
+.product-catalogue-heading h2 {
+  font-size: clamp(30px, 4vw, 40px);
+}
+
+.feature-category {
+  margin-bottom: 60px;
+}
+
+.category-heading {
+  margin-bottom: 22px;
+}
+
+.category-heading h3 {
+  margin-bottom: 8px;
+  color: #075e54;
+  font-size: 25px;
+}
+
+.category-heading p {
+  color: #64736f;
+  font-size: 14px;
+}
+
+.feature-overview-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.feature-overview-card {
+  display: flex;
+  min-height: 220px;
+  flex-direction: column;
+  padding: 25px;
+  border: 1px solid #e5eee8;
+  border-radius: 18px;
+  background: #ffffff;
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.25s ease, box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.feature-overview-card:hover {
+  transform: translateY(-5px);
+  border-color: #25d366;
+  box-shadow: 0 12px 35px rgba(7, 94, 84, 0.09);
+}
+
+.feature-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.feature-card-number {
+  color: #25d366;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.feature-status {
+  padding: 5px 10px;
+  border-radius: 30px;
+  background: #e9f9ef;
+  color: #075e54;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+}
+
+.feature-overview-card h4 {
+  margin-bottom: 10px;
+  color: #102a27;
+  font-size: 20px;
+}
+
+.feature-overview-card > p {
+  margin-bottom: 22px;
+  color: #64736f;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.feature-card-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: auto;
+  color: #075e54;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .feature-overview-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .platform-section {
+    padding: 70px 0;
+  }
+
+  .platform-pillars {
+    grid-template-columns: 1fr;
+    margin-bottom: 70px;
+  }
+
+  .feature-overview-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-category {
+    margin-bottom: 45px;
+  }
+
+  .feature-overview-card {
+    min-height: 190px;
+  }
+}
+
+
+/* =========================================
+   CONNECTSTREAM — PLATFORM ANIMATIONS
+========================================= */
+
+/* Animated background */
+.platform-section {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background:
+    radial-gradient(
+      ellipse at 10% 15%,
+      rgba(37, 211, 102, 0.10),
+      transparent 35%
+    ),
+    radial-gradient(
+      ellipse at 90% 55%,
+      rgba(7, 94, 84, 0.09),
+      transparent 38%
+    ),
+    linear-gradient(135deg, #f8fdf9, #ffffff 50%, #f2fbf5);
+  background-size: 140% 140%;
+  animation: platformBackground 18s ease-in-out infinite alternate;
+}
+
+/* Soft floating light effects */
+.platform-section::before,
+.platform-section::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  pointer-events: none;
+  filter: blur(2px);
+}
+
+.platform-section::before {
+  width: 320px;
+  height: 320px;
+  top: 8%;
+  left: -130px;
+  background: radial-gradient(
+    circle,
+    rgba(37, 211, 102, 0.13),
+    transparent 70%
+  );
+  animation: floatingOrbOne 14s ease-in-out infinite alternate;
+}
+
+.platform-section::after {
+  width: 380px;
+  height: 380px;
+  right: -160px;
+  bottom: 5%;
+  background: radial-gradient(
+    circle,
+    rgba(7, 94, 84, 0.10),
+    transparent 70%
+  );
+  animation: floatingOrbTwo 17s ease-in-out infinite alternate;
+}
+
+/* Keep actual content above background */
+.platform-section > .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Heading entrance */
+.platform-heading,
+.product-catalogue-heading {
+  animation: platformFadeUp 0.9s ease both;
+}
+
+.platform-pillars {
+  animation: platformFadeUp 1s ease 0.15s both;
+}
+
+.feature-category {
+  animation: platformFadeUp 0.8s ease both;
+}
+
+/* Pillar card hover */
+.pillar-card {
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease,
+    border-color 0.35s ease;
+}
+
+.pillar-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 18px 40px rgba(7, 94, 84, 0.12);
+  border-color: rgba(37, 211, 102, 0.55);
+}
+
+/* Feature card hover */
+.feature-overview-card {
+  position: relative;
+  overflow: hidden;
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease,
+    border-color 0.35s ease;
+}
+
+/* Subtle green shine inside cards */
+.feature-overview-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -120%;
+  width: 70%;
+  height: 100%;
+  background: linear-gradient(
+    110deg,
+    transparent,
+    rgba(37, 211, 102, 0.09),
+    transparent
+  );
+  transition: left 0.65s ease;
+  pointer-events: none;
+}
+
+.feature-overview-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(37, 211, 102, 0.65);
+  box-shadow: 0 18px 38px rgba(7, 94, 84, 0.12);
+}
+
+.feature-overview-card:hover::before {
+  left: 140%;
+}
+
+/* Arrow movement */
+.feature-card-link {
+  transition: color 0.3s ease;
+}
+
+.feature-card-link svg {
+  transition: transform 0.3s ease;
+}
+
+.feature-overview-card:hover .feature-card-link svg {
+  transform: translate(4px, -4px);
+}
+
+/* Feature card entrance */
+.feature-overview-card {
+  animation: platformFadeUp 0.7s ease both;
+}
+
+.feature-overview-card:nth-child(1) {
+  animation-delay: 0.05s;
+}
+
+.feature-overview-card:nth-child(2) {
+  animation-delay: 0.12s;
+}
+
+.feature-overview-card:nth-child(3) {
+  animation-delay: 0.19s;
+}
+
+.feature-overview-card:nth-child(4) {
+  animation-delay: 0.26s;
+}
+
+/* Animations */
+@keyframes platformBackground {
+  from {
+    background-position: 0% 0%;
+  }
+  to {
+    background-position: 100% 100%;
+  }
+}
+
+@keyframes floatingOrbOne {
+  from {
+    transform: translate(0, 0) scale(1);
+  }
+  to {
+    transform: translate(100px, 70px) scale(1.2);
+  }
+}
+
+@keyframes floatingOrbTwo {
+  from {
+    transform: translate(0, 0) scale(1);
+  }
+  to {
+    transform: translate(-90px, -70px) scale(1.15);
+  }
+}
+
+@keyframes platformFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .platform-section::before {
+    width: 220px;
+    height: 220px;
+  }
+
+  .platform-section::after {
+    width: 240px;
+    height: 240px;
+  }
+
+  .feature-overview-card:hover,
+  .pillar-card:hover {
+    transform: translateY(-3px);
+  }
+}
+
+/* Accessibility: respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .platform-section,
+  .platform-section::before,
+  .platform-section::after,
+  .platform-heading,
+  .product-catalogue-heading,
+  .platform-pillars,
+  .feature-category,
+  .feature-overview-card {
+    animation: none !important;
+  }
+
+  .feature-overview-card,
+  .pillar-card {
+    transition: none !important;
+  }
+}

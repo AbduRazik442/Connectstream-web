@@ -1,0 +1,425 @@
+.about-section {
+  padding: 110px 24px 120px;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.about-top {
+  max-width: 800px;
+  margin: 0 auto 75px;
+  text-align: center;
+}
+
+.about-top h2 {
+  color: #102a27;
+  font-size: clamp(36px, 4.5vw, 54px);
+  line-height: 1.15;
+  letter-spacing: -2px;
+  font-weight: 800;
+}
+
+.about-top h2 span {
+  color: #20ad5b;
+}
+
+.about-top>p {
+  max-width: 650px;
+  margin: 22px auto 0;
+  color: #64736f;
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.about-story-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 75px;
+}
+
+.about-visual {
+  position: relative;
+  min-height: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 25px;
+  background: linear-gradient(140deg, #075e54, #0c7762);
+}
+
+.about-visual-orbit {
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  border-radius: 50%;
+}
+
+.orbit-one {
+  width: 430px;
+  height: 430px;
+  right: -150px;
+  top: -180px;
+}
+
+.orbit-two {
+  width: 330px;
+  height: 330px;
+  left: -120px;
+  bottom: -150px;
+}
+
+.about-visual-content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding: 55px;
+}
+
+.about-chat-symbol {
+  position: relative;
+  width: 78px;
+  height: 78px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 45px;
+  border-radius: 22px;
+  background: #25d366;
+  color: #075e54;
+}
+
+.about-chat-symbol span {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  right: -5px;
+  bottom: -5px;
+  border: 3px solid #075e54;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.about-visual-label {
+  color: #a9e8c2;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.about-visual-content h3 {
+  margin-top: 18px;
+  color: #ffffff;
+  font-size: clamp(32px, 4vw, 46px);
+  line-height: 1.15;
+  letter-spacing: -1.5px;
+}
+
+.about-visual-content h3 span {
+  color: #5ce18b;
+}
+
+.about-visual-bottom {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 50px;
+  color: #c7e9d4;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.about-visual-line {
+  width: 50px;
+  height: 1px;
+  background: #5ce18b;
+}
+
+.about-story {
+  max-width: 510px;
+}
+
+.about-small-label {
+  color: #159b50;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.8px;
+}
+
+.about-story h3 {
+  margin-top: 17px;
+  color: #102a27;
+  font-size: 34px;
+  line-height: 1.2;
+  letter-spacing: -1.2px;
+}
+
+.about-story p {
+  margin-top: 19px;
+  color: #64736f;
+  font-size: 14px;
+  line-height: 1.95;
+}
+
+.about-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 27px;
+  color: #075e54;
+  font-size: 13px;
+  font-weight: 700;
+  transition: gap 0.2s ease;
+}
+
+.about-link:hover {
+  gap: 14px;
+}
+
+
+.about-purpose-grid {
+  margin-top: 100px;
+  padding: 15px 0;
+  background: #f7fbf8;
+  border-radius: 4px;
+}
+
+.mission-row {
+  border-bottom: 1px solid #e1ece4;
+}
+
+.purpose-number {
+  color: #20ad5b;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.purpose-side {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.purpose-icon {
+  flex-shrink: 0;
+  color: #159b50;
+}
+
+.purpose-label {
+  color: #64736f;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.8px;
+}
+
+.purpose-content {
+  position: relative;
+  z-index: 1;
+  max-width: 720px;
+}
+
+.purpose-content h3 {
+  color: #102a27;
+  font-size: clamp(25px, 3vw, 36px);
+  line-height: 1.3;
+  letter-spacing: -1.2px;
+  font-weight: 700;
+}
+
+.purpose-content h3 span {
+  color: #159b50;
+}
+
+.purpose-content p {
+  max-width: 650px;
+  margin-top: 17px;
+  color: #64736f;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.purpose-row {
+  position: relative;
+  display: grid;
+  grid-template-columns: 180px 1fr 70px;
+  align-items: center;
+  gap: 35px;
+  padding: 55px 55px;
+  overflow: hidden;
+}
+
+.purpose-mark {
+  color: rgba(32, 173, 91, 0.10);
+  font-size: 100px;
+  line-height: 1;
+  font-weight: 800;
+  text-align: left;
+  user-select: none;
+  transform: translateX(-340px);
+}
+
+.about-values {
+  margin-top: 100px;
+}
+
+.about-values-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e5eee8;
+}
+
+.about-values-heading h3 {
+  margin-top: 8px;
+  color: #102a27;
+  font-size: 28px;
+  letter-spacing: -0.8px;
+}
+
+.about-values-heading>svg {
+  color: #159b50;
+}
+
+.about-values-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+  padding-top: 35px;
+}
+
+.about-value-icon {
+  width: 45px;
+  height: 45px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 17px;
+  border-radius: 13px;
+  background: #e9f9ef;
+  color: #075e54;
+}
+
+.about-value h4 {
+  color: #102a27;
+  font-size: 16px;
+}
+
+.about-value p {
+  max-width: 300px;
+  margin-top: 9px;
+  color: #718079;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+@media (max-width: 850px) {
+  .about-story-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .about-story {
+    max-width: 700px;
+  }
+
+  .about-visual {
+    min-height: 390px;
+  }
+
+  .purpose-row {
+    grid-template-columns: 130px 1fr 45px;
+    gap: 20px;
+    padding: 40px 30px;
+  }
+
+  .purpose-mark {
+    font-size: 70px;
+  }
+
+}
+
+@media (max-width: 650px) {
+  .about-section {
+    padding: 80px 18px 90px;
+  }
+
+  .about-top {
+    margin-bottom: 50px;
+  }
+
+  .about-top h2 {
+    letter-spacing: -1.3px;
+  }
+
+  .about-top>p {
+    font-size: 14px;
+  }
+
+  .about-visual {
+    min-height: 350px;
+  }
+
+  .about-visual-content {
+    padding: 30px;
+  }
+
+  .about-chat-symbol {
+    margin-bottom: 32px;
+  }
+
+  .about-story h3 {
+    font-size: 29px;
+  }
+
+  .about-purpose-grid {
+    margin-top: 65px;
+    padding: 5px 0;
+  }
+
+  .purpose-row {
+    grid-template-columns: 1fr;
+    gap: 22px;
+    padding: 32px 24px;
+  }
+
+  .purpose-side {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .purpose-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .purpose-content h3 {
+    font-size: 25px;
+    line-height: 1.4;
+  }
+
+  .purpose-content p {
+    font-size: 13px;
+    line-height: 1.8;
+  }
+
+  .purpose-mark {
+    position: absolute;
+    right: 18px;
+    top: 15px;
+    font-size: 65px;
+  }
+
+  .about-values {
+    margin-top: 65px;
+  }
+
+  .about-values-heading h3 {
+    font-size: 23px;
+  }
+
+  .about-values-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+}

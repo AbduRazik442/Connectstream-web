@@ -1,0 +1,26 @@
+
+:root {
+  /* ConnectStream official brand colours */
+  --primary-green: #25D366;
+  --dark-teal: #075E54;
+
+  /* Supporting colours */
+  --light-green: #E9F9EF;
+  --soft-green: #F4FCF6;
+  --white: #FFFFFF;
+  --dark-text: #102A27;
+  --body-text: #64736F;
+  --border-color: #E5EEE8;
+
+  /* Typography */
+  --font-primary: "Inter", sans-serif;
+
+  /* Layout */
+  --container-width: 1200px;
+  --section-padding: 100px;
+
+  /* Effects */
+  --card-radius: 20px;
+  --button-radius: 50px;
+  --soft-shadow: 0 12px 40px rgba(7, 94, 84, 0.08);
+}
